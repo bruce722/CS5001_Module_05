@@ -1,8 +1,8 @@
 
 
-def to_numbers():
-    pass
-
+def to_numbers(input_list):
+    return list(map(lambda x: float(x), input_list))
+    
 
 if __name__ == '__main__':
-    to_numbers()
+    print(to_numbers([]))

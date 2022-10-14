@@ -1,7 +1,7 @@
 from functools import reduce
 
 def list_to_string(input_list):
-	if isinstance(input_list, list):
+	if isinstance(input_list, list) and len(inpit_list) > 0:
 		return reduce(lambda a, b: str(a)+"\n"+str(b), input_list)
 	else:
 		return ""

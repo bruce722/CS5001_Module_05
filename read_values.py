@@ -1,8 +1,13 @@
 
 
 def read_values():
-    print("hello wolrd")
+    result = []
+    num = int(input("Enter a number: "))
+    while num > 0:
+        result.append(num)
+        num = int(input("Enter a number: "))
+    return result
 
 
 if __name__ == '__main__':
-    read_values()
+    print(read_values())
